@@ -1,0 +1,66 @@
+.container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.container .box {
+  background-color: white;
+  width: 375px;
+  height: 812px;
+  position: relative;
+}
+
+.container img {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container .snow {
+  top: 205px;
+  left: 44px;
+}
+
+.container .treeobject {
+  top: 205px;
+  left: 152px;
+}
+
+.container .socks {
+  top: 205px;
+  left: 260px;
+}
+
+.container .tree {
+  top: 357px;
+  left: 44px;
+}
+
+.container .snowman {
+  top: 357px;
+  left: 152px;
+}
+
+.container .candy {
+  top: 357px;
+  left: 260px;
+}
+
+.container .stickcandy {
+  top: 510px;
+  left: 44px;
+}
+
+.container .candle {
+  top: 510px;
+  left: 152px;
+}
+
+.container .start {
+  top: 510px;
+  left: 260px;
+}/*# sourceMappingURL=style.css.map */

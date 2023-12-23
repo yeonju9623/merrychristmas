@@ -1,0 +1,212 @@
+@font-face {
+    font-family: 'DungGeunMo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.box {
+    background-color: white;
+    width: 375px;
+    height: 812px;
+    position: relative;
+}
+
+.container .title {
+    position: absolute;
+    top: 202px;
+    left: 84px;
+    font-family: 'DungGeunMo';
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.container .snow {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 150px;
+    left: 177px;
+    object-fit: cover;
+}
+
+.container .snowman {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 418px;
+    left: 152px;
+    object-fit: cover;
+}
+
+.container .img6 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 301px;
+    left: 44px;
+    object-fit: cover;
+}
+
+.container .img4 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 301px;
+    left: 152px;
+    object-fit: cover;
+}
+
+.container .img5 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 301px;
+    left: 260px;
+    object-fit: cover;
+}
+
+.container .img2 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 418px;
+    left: 44px;
+    object-fit: cover;
+}
+
+.container .img7 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 418px;
+    left: 260px;
+    object-fit: cover;
+}
+
+.container .img3 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 535px;
+    left: 44px;
+    object-fit: cover;
+}
+
+.container .img1 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 535px;
+    left: 152px;
+    object-fit: cover;
+}
+
+.container .img8 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 535px;
+    left: 260px;
+    object-fit: cover;
+}
+
+.container .sold1 {
+    position: absolute;
+    width: 80px;
+    height: 46px;
+    flex-shrink: 0;
+    top: 313px;
+    left: 39px;
+    z-index: 1;
+    display: none;
+}
+
+.container .sold2 {
+    position: absolute;
+    width: 80px;
+    height: 46px;
+    flex-shrink: 0;
+    top: 313px;
+    left: 147px;
+    z-index: 1;
+    display: none;
+}
+
+.container .sold3 {
+    position: absolute;
+    width: 80px;
+    height: 46px;
+    flex-shrink: 0;
+    top: 313px;
+    left: 255px;
+    z-index: 1;
+    display: none;
+}
+
+.container .sold4 {
+    position: absolute;
+    width: 80px;
+    height: 46px;
+    flex-shrink: 0;
+    top: 430px;
+    left: 39px;
+    z-index: 1;
+    display: none;
+}
+
+.container .sold5 {
+    position: absolute;
+    width: 80px;
+    height: 46px;
+    flex-shrink: 0;
+    top: 430px;
+    left: 255px;
+    z-index: 1;
+    display: none;
+}
+
+.container .sold6 {
+    position: absolute;
+    width: 80px;
+    height: 46px;
+    flex-shrink: 0;
+    top: 547px;
+    left: 40px;
+    z-index: 1;
+    display: none;
+}
+
+.container .sold7 {
+    position: absolute;
+    width: 80px;
+    height: 46px;
+    flex-shrink: 0;
+    top: 547px;
+    left: 147px;
+    z-index: 1;
+    display: none;
+}
+
+.container .sold8 {
+    position: absolute;
+    width: 80px;
+    height: 46px;
+    flex-shrink: 0;
+    top: 547px;
+    left: 255px;
+    z-index: 1;
+    display: none;
+}

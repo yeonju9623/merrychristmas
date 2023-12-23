@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'DungGeunMo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container .box {
+    background-color: white;
+    width: 375px;
+    height: 812px;
+}
+
+.container .notice {
+    position: relative;
+    width: 302px;
+    height: 478px;
+    top: 154px;
+    left: 37px;
+    background-color: #e9e9eb;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: black;
+}
+
+.container .title {
+    top: 105px;
+    left: 93px;
+    position: absolute;
+    font-family: 'DungGeunMo';
+    font-weight: 400;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.container .next_btn {
+    top: 370px;
+    left: 131px;
+    position: absolute;
+    font-family: 'DungGeunMo';
+    font-weight: 400;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.container .line1 {
+    top: 54px;
+    left: 13px;
+    position: absolute;
+    width: 272px;
+    height: 2px;
+}
+
+.container .line2 {
+    top: 424px;
+    left: 13px;
+    position: absolute;
+    width: 272px;
+    height: 2px;
+}
+
+.container .star_line1 {
+    top: 34px;
+    left: 10px;
+    position: absolute;
+    font-family: 'DungGeunMo';
+    font-weight: 400;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.container .star_line2 {
+    top: 429px;
+    left: 10px;
+    position: absolute;
+    font-family: 'DungGeunMo';
+    font-weight: 400;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.container .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+    position: absolute;
+    width: 220px;
+    height: 221px;
+    top: 150px;
+    left: 39px;
+}
+
+.container .text span {
+    position: relative;
+    align-self: stretch;
+    font-family: 'DungGeunMo';
+    font-weight: 400;
+    color: black;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
