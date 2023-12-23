@@ -140,6 +140,7 @@
   top: 313px;
   left: 39px;
   z-index: 1;
+  display: none;
 }
 
 .container .sold2 {
